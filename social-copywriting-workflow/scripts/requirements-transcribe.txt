@@ -1,0 +1,3 @@
+-r requirements-base.txt
+funasr>=1.1.6
+modelscope>=1.18.1

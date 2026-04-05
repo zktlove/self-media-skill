@@ -1,0 +1,5 @@
+bin/
+scripts/.env
+scripts/.venv/
+scripts/cookies/
+scripts/output/
