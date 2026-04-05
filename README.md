@@ -23,11 +23,7 @@
 | 平台 / 能力 | 用在什么地方 | 你要准备什么 | 地址 |
 | --- | --- | --- | --- |
 | TikHub | 抖音视频搜索、小红书对标内容采集 | 注册账号、验证邮箱、创建 API Token / Key | [官网](https://www.tikhub.io) / [用户后台](https://user.tikhub.io) / [接口文档](https://docs.tikhub.io) / [API](https://api.tikhub.io) |
-| 火山方舟 / 豆包生图 | 小红书配图生成 | 如果你沿用当前默认的豆包生图链路，需要你自己的模型调用权限和 Key | [火山方舟产品页](https://www.volcengine.com/product/ark) / [方舟控制台](https://console.volcengine.com/ark/region:ark+cn-beijing/model?vendor=Bytedance&view=DEFAULT_VIEW) |
-| 小红书创作服务平台 | 自动上传和发布图文 | 准备一个可登录的小红书账号，并导出浏览器 `storage state` | [发布页](https://creator.xiaohongshu.com/publish/publish) |
-| 抖音网页版 | 主页抓取、热榜、部分依赖登录态的接口 | 准备一个可登录的抖音账号，采集 Cookie / `msToken` | [抖音网页版](https://www.douyin.com/) |
-| SenseVoice / ModelScope | 本地音频转文字 | 不需要付费接口，但要装依赖并下载模型 | [SenseVoice GitHub](https://github.com/FunAudioLLM/SenseVoice) / [ModelScope 模型页](https://www.modelscope.cn/models/iic/SenseVoiceSmall) |
-| Playwright | 浏览器自动登录、发布、状态校验 | 本地安装 Playwright 运行时 | [Playwright](https://playwright.dev/) |
+| 火山方舟 / 豆包生图 | 小红书配图生成 | 如果你沿用当前默认的豆包生图链路，需要你自己的模型调用权限和 Key | [火山方舟产品页](https://www.volcengine.com/product/ark) / [方舟控制台]
 
 ### 大白话解释一下
 
@@ -310,7 +306,6 @@ python runtime/run_full_workflow.py --keyword "AI副业" --publish-mode publish
 - 想改总入口分流逻辑，修改根目录 `SKILL.md`
 - 想改抖音文案工作流，改 `social-copywriting-workflow/`
 - 想改小红书自动发布工作流，改 `xiaohongshu-auto-publish/`
-- npm 安装器代码已经拆到独立工程，不在这个仓库维护
 
 ## License
 
