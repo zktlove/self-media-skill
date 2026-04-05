@@ -1,4 +1,7 @@
 .self-media-skill/
+.venv/
+__pycache__/
+*.pyc
 node_modules/
 *.tgz
 npm-debug.log*
